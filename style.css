@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&family=Sevillana&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+    font-family: "Roboto";
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+span{
+    font-weight: 200;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+ul{  
+    list-style-type: none;
+}
+.search-bar{
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.contact{
+    color: brown;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin: 50px;
+}
+label{
+    color: purple;
+}
+#home-section{
+    background-image: url("https://images.unsplash.com/photo-1583267746897-2cf415887172?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 255, 0.705);
+;
+
+}
+#home-section div{
+    margin-left: 100px;
+}
+#home-section b{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#work-section h3{
+    color: blueviolet;
+}
+#Resume-section b{
+    color: red;
+}
+h3{
+    color: red;
+}
+h2{
+    color: red;
+}
+.Products{
+    color: yellow;
+}
+.Services{
+    color: blue;
+}
+.Automotive{
+    color: green;
+}
+#about-section{
+    padding: 50px;
+}
+#work-section {
+    padding: 50px;
+}
+.On{
+    padding: 10px;
+}
+.On h3{
+    padding: 10px;
+}
+.On h3{
+    padding: 10px;
+}
+.On h3{
+    padding:10px ;
+}
